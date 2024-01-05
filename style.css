@@ -108,7 +108,7 @@ button:hover{
     font-size: 350%;
 }
 #our_services p button{
-    border: 2px solid plum;
+    border: 2px solid aliceblue;
     background: none;
     border-radius:0.5cm;
     width: 3cm;
@@ -116,12 +116,9 @@ button:hover{
     transition: 0.3s;
 }
 #our_services p a{
-    color: red;
+    color: aliceblue;
     text-decoration:solid;
     font-size: larger;
-}
-#our_services p a:active{
-    color: red;
 }
 
 #card{
@@ -140,9 +137,9 @@ button:hover{
     color: white;
     text-align: center;
 }
-
 #footer{
     margin-top: 1cm;
+    background-color: rgba(0, 0, 0, 0.3);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -167,4 +164,5 @@ button:hover{
 	transform: scale(1.3);
 	transition: .3s;
 }
+
      
